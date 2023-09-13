@@ -1,0 +1,261 @@
+{{More citations needed|date=June 2023}}
+{{Short description|Business management discipline}}
+{{for|related subjects|Process management (disambiguation)}}
+{{Use dmy dates|date=August 2019}}
+{{Business administration}}
+'''Business process management''' ('''BPM''') is the discipline in which people use various methods to [[Business process discovery|discover]], [[Business process modeling|model]], [[Business analysis|analyze]], measure, improve, optimize, and [[Business process automation|automate]] [[business processes]].<ref name=":0" /><ref name="Panagacos2012">{{cite book|url=https://books.google.com/books?id=AyCQMQEACAAJ|title=The Ultimate Guide to Business Process Management: Everything You Need to Know and How to Apply It to Your Organization|author=Theodore Panagacos|date=25 September 2012|publisher=CreateSpace Independent Publishing Platform|isbn=978-1-4774-8613-9|pages=6–7}}</ref> Any combination of methods used to manage a company's business processes is BPM.<ref>{{Cite web|url=https://bpm.com/what-is-bpm|title=What Is BPM|last=Palmer|first=Nathaniel|website=bpm.com|language=en|access-date=2017-09-30}}</ref> Processes can be structured and repeatable or unstructured and variable. Though not required, enabling [[technologies]] are often used with BPM.<ref name=":0">{{Cite book|url=https://books.google.com/books?id=8Q6pAgAAQBAJ&q=business+process+management&pg=PP1|title=Business Process Management|last1=Jeston|first1=John|last2=Nelis|first2=Johan|date=2014-01-21|publisher=Routledge|isbn=9781136172984|language=en}}</ref>
+
+As an approach, BPM sees processes as important assets of an organization that must be understood, managed, and developed to announce and deliver value-added products and services to clients or customers. This approach closely resembles other [[total quality management]] or [[continual improvement process]] methodologies.
+
+[[ISO 9000]] promotes the process approach to managing an [[organization]].
+<blockquote> ...promotes the adoption of a process approach when developing, implementing and
+improving the effectiveness of a [[quality management]] system, to enhance [[customer satisfaction]] by meeting [[customer requirement]]s.<ref>Source: clause 0.2 of ISO 9001:2000</ref></blockquote>
+
+BPM proponents also claim that this approach can be supported, or enabled, through technology.<ref>Managing Performance Through Business Processes, Dominique Thiault, {{ISBN|978-1-4680-2890-4}}</ref> As such, many BPM articles and scholars frequently discuss BPM from one of two viewpoints: people and/or technology.
+
+BPM streamlines business processing by automating workflows; while [[Robotic process automation|RPA]] automates tasks by recording a set of repetitive activities implemented by human. Organizations maximize their business automation leveraging both technologies to achieve better results.
+
+==Definitions==
+
+The Workflow Management Coalition,<ref>{{cite web|url=http://wfmc.org/what-is-bpm|title=What is BPM? - Workflow Management Coalition|website=wfmc.org|access-date=20 January 2018}}</ref> BPM.com<ref>{{cite web|url=http://bpm.com/what-is-bpm|title=What Is BPM|first=Nathaniel|last=Palmer|website=bpm.com|access-date=20 January 2018}}</ref> and several other sources<ref>[The Complete Business Process Handbook Volume 1: 'Body of Knowledge from Process Modeling to BPM by Prof. [[August-Wilhelm Scheer]], Henrik von Scheel, Prof. Mark von Rosing, et al. ([[Morgan Kaufmann Publishers|Morgan Kaufmann]], {{ISBN|0128028602}}) [http://store.elsevier.com/The-Complete-Business-Process-Handbook/Mark-von-Rosing/isbn-9780127999593/]</ref> use the following definition:
+
+:: Business process management (BPM) is a discipline involving any combination of modeling, automation, execution, control, measurement and optimization of business activity flows, in support of enterprise goals, spanning systems, employees, customers and partners within and beyond the enterprise boundaries.
+
+The Association of Business Process Management Professionals<ref>{{cite web|url=http://www.abpmp.org/?page=BPM_Profession|title=The BPM Profession – ABPMP International|website=www.abpmp.org|access-date=20 January 2018}}</ref> defines BPM as:
+
+:: Business process management (BPM) is a disciplined approach to identify, design, execute, document, measure, monitor, and control both automated and non-automated business processes to achieve consistent, targeted results aligned with an organization’s strategic goals. BPM involves the deliberate, collaborative and increasingly technology-aided definition, improvement, innovation, and management of end-to-end business processes that drive business results, create value, and enable an organization to meet its business objectives with more agility. BPM enables an enterprise to align its business processes to its business strategy, leading to effective overall company performance through improvements of specific work activities either within a specific department, across the enterprise, or between organizations.
+
+[[Gartner]] defines business process management as:
+:: "the discipline of managing processes (rather than tasks) as the means for improving business performance outcomes and operational agility. Processes span organizational boundaries, linking together people, information flows, systems, and other assets to create and deliver value to customers and constituents."<ref>{{cite web|last1=Gartner|title=Business process management (BPM)|url=http://www.gartner.com/it-glossary/business-process-management-bpm/.}}</ref>
+
+It is common to confuse BPM with a BPM suite (BPMS).   BPM is a professional discipline done by people, whereas a BPMS is a technological suite of tools designed to help the BPM professionals accomplish their goals.  BPM should also not be confused with an application or solution developed to support a particular process.  Suites and solutions represent ways of automating business processes, but automation is only one aspect of BPM.
+
+==Comparison with program management==
+It can be differentiated from [[program management]] in that program management is concerned with managing a group of inter-dependent projects. From another viewpoint, process management includes program management. In [[project management]], process management is the use of a repeatable process to improve the outcome of the project.<ref>{{citation |last1=Thom |first1=William |year=2009 |title=People, Process, and Performance Management in Project Management |url=http://www.pmhut.com/people-process-and-performance-management-in-project-management}}</ref>
+
+==Comparison with project management==
+Key distinctions between process management and project management are repeatability and predictability. If the structure and sequence of work is unique, then it is a project. In business process management, a sequence of work can vary from instance to instance: there are gateways, conditions; business rules etc. The key is predictability: no matter how many forks in the road, we know all of them in advance, and we understand the conditions for the process to take one route or another. If this condition is met, we are dealing with a process.<ref>{{Cite book |last1=Arsanjani |first1=Dr Ali |url=https://books.google.com/books?id=cKCwCAAAQBAJ |title=Business Process Management Design Guide: Using IBM Business Process Manager |last2=Bharade |first2=Nakul |last3=Borgenstrand |first3=Magnus |last4=Schume |first4=Philipp |last5=Wood |first5=J. Keith |last6=Zheltonogov |first6=Vyacheslav |last7=Redbooks |first7=I. B. M. |date=2015-04-27 |publisher=IBM Redbooks |isbn=978-0-7384-4059-0 |language=en}}</ref>
+
+==Changes==
+The concept of business process may be as traditional as concepts of [[Task (project management)|tasks]], [[departmentalization|department]], [[Production (economics)|production]], and [[output (economics)|output]]s, arising from [[job shop scheduling]] problems in the early 20th century.<ref name="Education1918">{{cite book|author=United States. Division of Vocational Education|title=Trade and Industrial Series ...|url=https://books.google.com/books?id=3200AQAAMAAJ|year=1918|publisher=U.S. Government Printing Office}}</ref> The management and improvement approach {{As of| 2010 | lc = on}}, with formal definitions and technical modeling, has been around since the early 1990s (see [[business process modeling]]). Note that the term "business process" is sometimes used by IT practitioners as synonymous with the management of [[middleware]] processes or with integrating [[application software]] tasks.{{citation needed|date=February 2015}}
+
+Although BPM initially focused on the automation of business processes with the use of information technology, it has since been extended{{By whom|date=November 2010}} to integrate human-driven processes in which human interaction takes place in series or parallel with the use of technology. For example, [[workflow management system]]s can assign individual steps requiring deploying human intuition or judgment to relevant humans and other tasks in a [[workflow]] to a relevant automated system.<ref>"Automated workflows" http://www.automatedworkflows.com/services/custom-development/custom-automator-development/</ref>
+
+More recent variations such as "human interaction management"<ref>{{cite web|url=http://human-interaction-management.info/|access-date=2013-08-16|title=Human Interaction: The Missing Link in BPM (Part I)|author=Keith Harrison-Broninski|date=2005-04-03}}</ref><ref>{{cite web|url=http://human-interaction-management.info/|title=HIM|access-date=2013-08-16}}</ref> are concerned with the interaction between human workers performing a task.{{citation needed|date=February 2015}}
+
+{{As of| 2010}}, technology has allowed the coupling of BPM with other methodologies, such as [[Six Sigma]].<ref>{{cite web| url=https://solutionsreview.com/business-process-management/understanding-difference-lean-six-sigma-business-process-management/|access-date=2018-10-23 |title=Understanding the Difference Between Lean Six Sigma and Business Process Management|date=23 October 2018 }}</ref> Some BPM tools such as [[SIPOC]]s, [[workflow|process flow]]s, [[RACI matrix|RACI]]s, [[CTQ tree|CTQ]]s and [[histogram]]s allow users to:
+* visualize – functions and processes
+* measure – determine the appropriate measure to determine success
+* analyze – compare the various simulations to determine an optimal improvement
+* improve – select and implement the improvement
+* control – deploy this implementation and by use of user-defined dashboards monitor the improvement in real time and feed the performance information back into the simulation model in preparation for the next improvement iteration
+* re-engineer – revamp the processes from scratch for better results
+
+This brings with it the benefit of being able to simulate changes to business processes based on real-world data (not just on assumed knowledge). Also, the coupling of BPM to industry methodologies allows users to continually streamline and optimize the process to ensure that it is tuned to its market need.<ref>[ftp://ftp.software.ibm.com/common/ssi/sa/wh/n/wsw14044usen/WSW14044USEN.PDF Coupling BPM with Six Sigma]{{Dead link|date=November 2018 |bot=InternetArchiveBot |fix-attempted=yes }}</ref>{{Full citation needed|date=July 2014}}
+
+{{As of | 2012}} research on BPM has paid increasing attention to the compliance of business processes. Although a key aspect of business processes is flexibility, as business processes continuously need to adapt to changes in the environment, compliance with business strategy, policies, and government regulations should also be ensured.<ref>
+Gong, Y. and Janssen, M. (2011). From policy implementation to business process management: Principles for creating flexibility and agility. Government Information Quarterly, 29 (Supplement 1), Pages S61-S71, Elsevier.</ref>
+The compliance aspect in BPM is highly important for governmental organizations. {{As of | 2010}} BPM approaches in a governmental context largely focus on operational processes and knowledge representation.<ref>
+Apostolou, D., Mentzas, G., Stojanovic, L., Thoenssen, B., & Lobo, T. P. (2010). A collaborative decision framework for managing changes in e-Government services Government Information Quarterly, 28(1), Page 101-116, Elsevier.</ref>
+There have been many technical studies on operational business processes in the public and private sectors, but researchers rarely take legal compliance activities into account—for instance, the legal implementation processes in public-administration bodies.{{citation needed|date=February 2015}}
+
+==Life-cycle==
+Business process management activities can be arbitrarily grouped into categories such as design, modeling, execution, monitoring, and optimization.<ref>Franz Bayer, Harald Kühn (ed.): "Prozessmanagement für Experten - Impulse für aktuelle und wiederkehrende Themen", Springer-lVerlag Berlin Heidelberg 2013</ref>
+
+[[File:Business Process Management Life-Cycle.svg|150px|right]]
+
+===Design===
+{{Unreferenced section|date=June 2023}}
+Process design encompasses both the identification of existing processes and the design of "to-be" processes. Areas of focus include representation of the process flow, the factors within it, alerts and notifications, escalations, standard operating procedures, service level agreements, and task hand-over mechanisms. Whether or not existing processes are considered, the aim of this step is to ensure a correct and efficient new design.
+
+The proposed improvement could be in human-to-human, human-to-system or system-to-system workflows, and might target regulatory, market, or competitive challenges faced by the businesses. Existing processes and design of a new process for various applications must synchronize and not cause a major outage or process interruption.
+
+===Modeling===
+{{Unreferenced section|date=June 2023}}
+Modeling takes the theoretical design and introduces combinations of variables (e.g., changes in rent or materials costs, which determine how the process might operate under different circumstances).
+
+It may also involve running "what-if analysis"(Conditions-when, if, else) on the processes: ''"What if I have 75% of resources to do the same task?"'' ''"What if I want to do the same job for 80% of the current cost?"''.
+
+===Execution===
+{{original research|section|date=February 2015}}
+Business process execution is broadly about enacting a discovered and modeled [[business process]].
+
+====Business process====
+Enacting a business process is done manually or automatically or with a combination of manual and automated business tasks. Manual business processes are human-driven. Automated business processes are software-driven. [[Business process automation]] encompasses methods and software deployed for automating business processes.
+
+====Business process automation====
+[[Business process automation]] is performed and orchestrated at the business process layer<ref>{{cite web|url=http://www.opengroup.org/soa/source-book/soa_refarch/p11.htm|title=SOA Reference Architecture – Business Process Layer|website=www.opengroup.org|access-date=20 January 2018}}</ref> or the consumer presentation layer<ref>{{cite web|url=http://www.opengroup.org/soa/source-book/soa_refarch/p12.htm|title=SOA Reference Architecture – Consumer Layer|website=www.opengroup.org|access-date=20 January 2018}}</ref> of SOA Reference Architecture. BPM software suites such as BPMS or iBPMS or low-code platforms are positioned at the business process layer. While the emerging [[robotic process automation]] software performs business process automation at the presentation layer, therefore is considered non-invasive to and de-coupled from existing application systems.
+
+One of the ways to automate processes is to develop or purchase an [[application software|application]] that executes the required steps of the process; however, in practice, these applications rarely execute all the steps of the process accurately or completely. Another approach is to use a combination of software and human intervention; however this approach is more complex, making the documentation process difficult.
+
+In response to these problems, companies have developed software that defines the full business process (as developed in the process design activity) in a [[computer language]] that a computer can directly execute. Process models can be run through execution engines that automate the processes directly from the model (e.g., calculating a repayment plan for a loan) or, when a step is too complex to automate, [[Business Process Modeling Notation]] (BPMN) provides front-end capability for human input.<ref>Dr. Larry Kerschberg [http://www.odesso.com/documents/processmodeling.doc INFS 770 – Methods for Information Systems Engineering: Knowledge Management and E-Business] {{Webarchive|url=https://web.archive.org/web/20160811042403/http://odesso.com/documents/processmodeling.doc# |date=11 August 2016 }}</ref> Compared to either of the previous approaches, directly executing a process definition can be more straightforward and therefore easier to improve. However, automating a process definition requires flexible and comprehensive infrastructure, which typically rules out implementing these systems in a legacy IT environment.
+
+====Business rules====
+{{Main|Business rules}}
+[[Business rules]] have been used by systems to provide definitions for governing behavior, and a business rule engine can be used to drive process execution and resolution.
+
+===Monitoring===
+Monitoring encompasses the tracking of individual processes, so that information on their state can be easily seen, and statistics on the performance of one or more processes can be provided.  An example of this tracking is being able to determine the state of a customer order ''(e.g.'' order arrived, awaiting delivery, invoice paid) so that problems in its operation can be identified and corrected.
+
+In addition, this information can be used to work with customers and suppliers to improve their connected processes.  Examples are the generation of measures on how quickly a customer order is processed or how many orders were processed in the last month. These measures tend to fit into three categories: cycle time, defect rate and productivity.
+
+====Business Activity Monitoring (BAM)====
+The degree of monitoring depends on what information the business wants to evaluate and analyze and how the business wants it monitored, in real-time, near real-time or ad hoc. Here, [[business activity monitoring]] (BAM) extends and expands the monitoring tools generally provided by BPMS.
+
+====Process mining====
+[[Process mining]] is a collection of methods and tools related to process monitoring. The aim of process mining is to analyze event logs extracted through process monitoring and to compare them with an ''{{linktext|a priori}}'' process model. Process mining allows process analysts to detect discrepancies between the actual process execution and the ''a priori'' model as well as to analyze bottlenecks.
+
+====Predictive Business Process Monitoring====
+Predictive Business Process Monitoring concerns the application of data mining, machine learning, and other forecasting techniques to predict what is going to happen with running instances of a business process, allowing to make forecasts of future cycle time, compliance issues, etc. Techniques for predictive business process monitoring include Support Vector Machines,<ref>{{cite book | last1 = Cabanillas| first1 = C. | last2 =  Di Ciccio| first2 = C. | last3 = Mendling | first3 = J. | last4 = Baumgrass| first4 = A. | title = Business Process Management | chapter = Predictive Task Monitoring for Business Processes | year = 2014 | volume = 8659 | pages = 424–432| doi=10.1007/978-3-319-10172-9_31| series = Lecture Notes in Computer Science | isbn = 978-3-319-10171-2 }}</ref> Deep Learning approaches, and Random Forest.
+
+===Optimization===
+[[Process optimization]] includes retrieving process performance information from modeling or monitoring phase; identifying the potential or actual [[bottleneck (production)|bottlenecks]] and the potential opportunities for cost savings or other improvements; and then, applying those enhancements in the design of the process. Process mining tools are able to discover critical activities and bottlenecks, creating greater business value.<ref name="s-cube">S-Cube Knowledge Model: [http://www.s-cube-network.eu/km/terms/b/business-process-optimization Business Process Optimization].</ref>
+
+===Re-engineering===
+{{Excerpt|Business process re-engineering}}
+
+==Suites==
+{{Unreferenced section|date=June 2023}}
+A market has developed for [[enterprise software]] leveraging the business process management concepts to organize and automate processes. The recent convergence of this software from distinct pieces such as [[business rules engine]], [[business process modelling]], [[business activity monitoring]] and Human Workflow has given birth to integrated Business Process Management Suites.
+[[Forrester Research]], Inc recognize the BPM suite space through three different lenses: 
+* Human-centric BPM
+* Integration-centric BPM ([[enterprise service bus]])
+* Document-centric BPM ([[dynamic case management]])
+
+However, standalone integration-centric and document-centric offerings have matured into separate, standalone markets.
+
+[[Rapid application development]] using no-code/low-code principles is becoming an ever prevalent feature of BPMS platforms. RAD enables businesses to deploy applications more quickly and more cost effectively, while also offering improved change and version management. Gartner notes that as businesses embrace these systems, their budgets rely less on the maintenance of existing systems and show more investment in growing and transforming them.
+
+==Practice==
+[[File:BPM Workflow Service Pattern.png|thumb|360px|Example of Business Process Management (BPM) Service Pattern: This pattern shows how business process management (BPM) tools can be used to implement business processes through the orchestration of activities between people and systems.<ref>NIH (2007). [https://enterprisearchitecture.nih.gov/Pages/WorkflowServicePattern.aspx Business Process Management (BPM) Service Pattern] {{Webarchive|url=https://web.archive.org/web/20120415171652/https://enterprisearchitecture.nih.gov/Pages/WorkflowServicePattern.aspx# |date=15 April 2012 }}. Accessed 29 November 2008.</ref>]]
+While the steps can be viewed as a cycle, economic or time constraints are likely to limit the process to only a few iterations.  This is often the case when an organization uses the approach for short to medium term objectives rather than trying to transform the organizational culture.  True iterations are only possible through the collaborative efforts of process participants.  In a majority of organizations, complexity requires enabling technology (see below) to support the process participants in these daily process management challenges.
+
+To date, many organizations often start a BPM project or program with the objective of optimizing an area that has been identified as an area for improvement.
+
+Currently, the international standards for the task have limited BPM to the application in the IT sector, and ISO/IEC 15944 covers the operational aspects of the business. However, some corporations with the culture of [[best practices]] do use [[standard operating procedures]] to regulate their operational process.<ref name=ippc>NTAID (2008). [http://www.niaid.nih.gov/ncn/sop/contracts/invoice.htm Invoice Processing Procedures for Contracts] Accessed 17 September 2008.</ref>  Other standards are currently being worked upon to assist in BPM implementation ([[BPMN]], [[enterprise architecture]], [[Business Motivation Model]]).
+
+===Technology===
+BPM is now considered a critical component of [[operational intelligence]] (OI) solutions to deliver real-time, actionable information. This real-time information can be acted upon in a variety of ways – alerts can be sent or executive decisions can be made using real-time dashboards. OI solutions use real-time information to take automated action based on pre-defined rules so that security measures and or exception management processes can be initiated.
+Because "the size and complexity of daily tasks often requires the use of technology to model efficiently" when resources in technology became increasingly widespread with general availability to businesses to provide to their staff, "Many thought BPM as the bridge between Information Technology (IT) and Business."<ref name="Singh2009">{{cite book
+|author=S.k. Singh
+|title=Bank Regulations
+|chapter-url=https://books.google.com/books?id=_FUoBlN8p_EC
+|access-date=19 January 2018
+|edition=First
+|year=2009
+|publisher=Discovery Publishing House
+|location=New Delhi
+|language=en
+|isbn=978-81-8356-447-2
+|page=45
+|chapter=Ch. 2. Financial Prospectus: Business Process Management
+}}</ref>
+
+There are four critical components of a BPM Suite:
+* Process engine – a robust platform for modeling and executing process-based applications, including business rules
+* Business analytics – enable managers to identify business issues, trends, and opportunities with reports and dashboards and react accordingly
+* Content management – provides a system for storing and securing electronic documents, images, and other files
+* Collaboration tools – remove intra- and interdepartmental communication barriers through discussion forums, dynamic workspaces, and message boards
+
+BPM also addresses many of the critical IT issues underpinning these business drivers, including:
+* Managing end-to-end, customer-facing processes
+* Consolidating data and increasing visibility into and access to associated data and information
+* Increasing the flexibility and functionality of current infrastructure and data
+* Integrating with existing systems and leveraging [[service oriented architecture]] (SOA)
+* Establishing a common language for business-IT alignment
+
+Validation of BPMS is another technical issue that vendors and users must be aware of, if regulatory compliance is mandatory.<ref>{{cite web|url=https://www.fda.gov/downloads/Drugs/GuidanceComplianceRegulatoryInformation/Guidances/UCM072322.pdf |title=Guidance for Industry. Part 11, Electronic Records; Electronic Signatures – Scope and Application |access-date=2009-07-20 |date = August 2003|publisher=[[Food and Drug Administration (United States)|Food and Drug Administration]] }}</ref> The validation task could be performed either by an authenticated third party or by the users themselves.  Either way, validation documentation must be generated. The validation document usually can either be published officially or retained by users.
+
+===Cloud computing BPM===
+'''Cloud computing business process management''' is the use of (BPM) tools that are delivered as [[Software as a service|software services]] (SaaS) over a network. Cloud BPM business logic is deployed on an application server and the business data resides in [[cloud storage]].
+
+====Market====
+{{Unreferenced section|date=June 2023}}
+According to Gartner, 20% of all the "shadow business processes" are supported by BPM cloud platforms. Gartner refers to all the hidden organizational processes that are supported by IT departments as part of legacy business processes such as Excel spreadsheets, routing of emails using rules, phone calls routing, etc. These can, of course also be replaced by other technologies such as [[workflow management system|workflow]]  and smart form software.
+
+====Benefits====
+The benefits of using cloud BPM services include removing the need and cost of maintaining specialized technical skill sets in-house and reducing distractions from an enterprise's main focus. It offers controlled IT budgeting and enables geographical mobility.<ref>{{cite web|url = http://projects.aifb.kit.edu/bpmc2013/index.htm|title = 1st International Workshop on Business Process Management in the Cloud|publisher = KIT|date = 26 August 2013 |access-date=13 March 2013}}</ref>{{Full citation needed|date=July 2014}}.
+
+===Internet of things===
+{{Unreferenced section|date=June 2023}}
+
+The emerging [[Internet of things]] poses a significant challenge to control and manage the flow of information through large numbers of devices.  To cope with this, a new direction known as [[BPM Everywhere]] shows promise as a way of blending traditional process techniques, with additional capabilities to automate the handling of all the independent devices.
+
+==See also==
+{{cmn|colwidth=30em|rules=yes|
+* [[Application service provider]]
+* [[Business intelligence]]
+* [[Business object]]
+* [[Business-oriented architecture]]
+* [[Business process automation]]
+* [[Business process orientation]]
+* [[CIFMS]]
+* [[Comparison of business integration software]]
+* [[Enterprise planning systems]]
+* [[Human resource management system]]
+* [[Integrated business planning]]
+* [[International Conference on Business Process Management]]
+* [[ITIL]]
+* [[Managed services]]
+* [[Manufacturing process management]]
+* [[Process architecture]]
+* [[Social business process management]]
+* [[Total quality management]]
+}}
+
+* [[Document management system]]
+
+==References==
+{{Reflist|30em}}
+
+==Further reading==
+* Wil van der Aalst, Kees Max van Hee (2002). "Workflow Management: Models, Methods, and Systems" {{ISBN|0262011891}}, 9780262011891
+* Wil van der Aalst and Christian Stahl (2011). "Modeling Business Processes" {{ISBN|9780262015387}}
+* Wil van der Aalst (2011). "Process Mining: Discovery, Conformance and Enhancement of Business Processes" {{ISBN|978-3-642-19345-3}}
+* Alan P. Brache. How Organizations Work: Taking a Holistic Approach to Enterprise Health. {{ISBN|0-471-20033-6}}
+* Roger Burlton (2001). ''Business Process Management: Profiting From Process''.  {{ISBN|0-672-32063-0}}
+* James F. Chang (2006). ''Business Process Management Systems''. {{ISBN|0-8493-2310-X}}
+* Dirk Draheim (2005). [https://www.springer.com/gp/book/9783642015878 ''Business Process Technology'']. {{ISBN|978-3-642-01587-8}}
+* [[Jay R. Galbraith]] (2005). Designing the Customer-Centric Organization: A Guide to Strategy, Structure and Process. {{ISBN|0-7879-7919-8}}
+* Jean-Noël Gillot (2008). ''The complete guide to Business Process Management''. {{ISBN|978-2-9528-2662-4}}
+* Michael Hammer, James A. Champy. Reengineering the Corporation: A Manifesto for Business Revolution. {{ISBN|0-06-662112-7}}
+* [[Paul Harmon (management author)|Paul Harmon]] (2007). ''Business Process Change: A Guide for Business Managers and BPM and Six Sigma Professionals''.  {{ISBN|978-0-12-374152-3}}
+* Keith Harrison-Broninski (2005). ''Human Interactions: The Heart and Soul of Business Process Management'' {{ISBN|0-929652-44-4}}
+* Arthur ter Hofstede, Wil van der Aalst, Michael Adams, Nick Russell (2010). Modern Business Process Automation: YAWL and its Support Environment, {{ISBN|978-3-642-03121-2}}
+* John Jeston and Johan Nelis (2008) Management by Process: A roadmap to sustainable Business Process Management. {{ISBN|978-0-7506-8761-4}} and  ''Business Process Management: Practical Guidelines to Successful Implementations'' (2006) {{ISBN|0-7506-6921-7}}
+* John Jeston and Johan Nelis ''Business Process Management: Practical Guidelines to Successful Implementations'', {{ISBN|0-7506-6921-7}}
+* Ryan K. L. Ko, Stephen S. G. Lee, Eng Wah Lee (2009) [https://wayback.archive-it.org/all/20120917072604/http://ryanko.files.wordpress.com/2008/03/bpm-journal-koleelee-bpms-survey.pdf ''Business Process Management (BPM) Standards: A Survey'']. In: Business Process Management Journal, Emerald Group Publishing Limited. Volume 15 Issue 5. {{ISSN|1463-7154}}.
+* Christine Mckinty and Antoine Mottier (2016). "Designing Efficient BPM Applications – A Process-Based Guide for Beginners" (O'Reilly) {{ISBN|978-1-491-92471-6}}
+* Martyn Ould (2005). ''Business Process Management: A Rigorous Approach''. {{ISBN|1-902505-60-3}} 
+* Geary A. Rummler, Alan P. Brache. Improving Performance: How to Manage the White Space in the Organization Chart. {{ISBN|0-7879-0090-7}}
+* Terry Schurter, Steve Towers. ''Customer Expectation Management: Success Without Exception''. {{ISBN|0-929652-07-X}}
+* Bruce Silver (2011). "BPMN Method and Style: With BPMN Implementer's Guide" {{ISBN|1596931930}}, 9781596931930
+* Alec Sharp, Patrick McDermott (2008). "Workflow Modeling: Tools for Process Improvement and Applications Development" {{ISBN|1596931930}}, 9781596931930
+* Howard Smith, Peter Fingar (2003). ''Business Process Management: The Third Wave''. 
+* Andrew Spanyi (2003). ''Business Process Management Is a Team Sport: Play It to Win!'' {{ISBN|978-0-929652-02-3}}
+* Mathias Weske (2012). "Business Process Management: Concepts, Languages, Architectures (Second Edition)" {{ISBN|978-3-642-28615-5}}
+* Howard Smith, Peter Fingar. Business Process Management: The Third Wave. {{ISBN|0-929652-33-9}}
+*{{cite journal |last=Kohlbacher |first=Markus
+ |year=2010
+ |title=The effects of process orientation: A literature review
+ |journal=Business Process Management Journal
+ |volume=16 |issue=1
+ |pages=135–152
+ |doi=10.1108/14637151011017985
+}}
+
+==External links==
+{{Commons category|Business process management}}
+*[http://www.abpmp.org ABPMP.org] The Association of Business Process Management Professionals
+* [http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf The NIST Definition of Cloud Computing]. Peter Mell and Timothy Grance, NIST Special Publication 800-145 (September 2011). National Institute of Standards and Technology, U.S. Department of Commerce.
+* [http://csrc.nist.gov/publications/drafts/800-146/Draft-NIST-SP800-146.pdf Cloud Computing Synopsis and Recommendations]. Peter Mell and Timothy Grance, NIST Special Publication 800-146 (May 2011). National Institute of Standards and Technology, U.S. Department of Commerce.
+* [http://www.oracle.com/us/technologies/cloud/036500.pdf Platform-as-a-Service Private Cloud with Oracle Fusion Middleware]. An Oracle White Paper (October 2009). Oracle.com
+* [https://www.youtube.com/watch?v=krL-D_oZtqw Process execution through application ontologies]. The movie demonstrates how semantic technologies can be applied as execution engine.
+* [https://www.youtube.com/watch?v=nOMWNzNnqTY Business Process Management is primarily an attitude]. A YouTube movie on BPM approaches explaining the use case of BPM.
+
+{{Library resources box}}
+* {{Commons category-inline|Business process management}}
+
+{{DEFAULTSORT:Business Process Management}}
+[[Category:Business process management| ]]
+[[Category:Management cybernetics]]

@@ -1,0 +1,197 @@
+{{Short description|Computer recognition of visual text}}
+{{EngvarB|date=January 2019}}
+{{Use mdy dates|date=January 2019}}
+[[File:Portable scanner and OCR (video).webm|thumb|300px|Video of the process of scanning and real-time optical character recognition (OCR) with a portable scanner]]
+
+'''Optical character recognition''' or '''optical character reader''' ('''OCR''') is the [[electronics|electronic]] or [[machine|mechanical]] conversion of [[image]]s of typed, handwritten or printed text into machine-encoded text, whether from a scanned document, a photo of a document, a scene photo (for example the text on signs and billboards in a landscape photo) or from subtitle text superimposed on an image (for example: from a television broadcast).<ref>{{cite web|last=OnDemand|first=HPE Haven|title=OCR Document|url=https://dev.havenondemand.com/apis/ocrdocument#overview|url-status=dead|archive-url=https://web.archive.org/web/20160415060125/https://dev.havenondemand.com/apis/ocrdocument|archive-date=April 15, 2016}}</ref>
+
+Widely used as a form of [[data entry]] from printed paper data records{{snd}}whether passport documents, invoices, [[bank statement]]s, computerized receipts, business cards, mail, printed data, or any suitable documentation{{snd}}it is a common method of digitizing printed texts so that they can be electronically edited, searched, stored more compactly, displayed online, and used in machine processes such as [[cognitive computing]], [[machine translation]], (extracted) [[text-to-speech]], key data and [[text mining]]. OCR is a field of research in [[pattern recognition]], [[artificial intelligence]] and [[computer vision]].
+
+Early versions needed to be trained with images of each character, and worked on one font at a time. Advanced systems capable of producing a high degree of accuracy for most fonts are now common, and with support for a variety of [[image file format]] inputs.<ref>{{cite web|last=OnDemand|first=HPE Haven|title=undefined|url=https://dev.havenondemand.com/docs/ImageFormats.html|url-status=dead|archive-url=https://web.archive.org/web/20160419063444/https://dev.havenondemand.com/docs/ImageFormats.html|archive-date=April 19, 2016}}</ref> Some systems are capable of reproducing formatted output that closely approximates the original page including images, columns, and other non-textual components.
+
+==History==
+{{See also|Timeline of optical character recognition}}
+Early optical character recognition may be traced to technologies involving telegraphy and creating reading devices for the blind.<ref name=Scantz82>{{cite book|last=Schantz|first=Herbert F.|title=The history of OCR, optical character recognition|url=https://archive.org/details/historyofocropti0000scha|url-access=registration|year=1982|publisher=Recognition Technologies Users Association|location=[Manchester Center, Vt.]|isbn=9780943072012}}</ref> In 1914, [[Emanuel Goldberg]] developed a machine that read characters and converted them into standard telegraph code.<ref>{{cite book |last1=Dhavale |first1=Sunita Vikrant |title=Advanced Image-Based Spam Detection and Filtering Techniques |publisher=IGI Global |location=Hershey, PA |isbn=9781683180142 |page=91 |url=https://books.google.com/books?id=InFxDgAAQBAJ&q=1914+Emanuel+Goldberg&pg=PA91|date=2017 }}</ref> Concurrently, Edmund Fournier d'Albe developed the [[Optophone]], a handheld scanner that when moved across a printed page, produced tones that corresponded to specific letters or characters.<ref>{{cite journal|last=d'Albe|first=E. E. F.|title=On a Type-Reading Optophone|journal=Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences|date=1 July 1914|volume=90|issue=619|pages=373–375|doi=10.1098/rspa.1914.0061|bibcode=1914RSPSA..90..373D|doi-access=}}</ref>
+
+In the late 1920s and into the 1930s, [[Emanuel Goldberg]] developed what he called a "Statistical Machine" for searching [[Microform|microfilm]] archives using an optical code recognition system. In 1931, he was granted US Patent number 1,838,389 for the invention. The patent was acquired by [[IBM]].
+
+===Visually impaired users===
+In 1974, [[Ray Kurzweil]] started the company Kurzweil Computer Products, Inc. and continued development of omni-[[typeface|font]] OCR, which could recognize text printed in virtually any font. (Kurzweil is often credited with inventing omni-font OCR, but it was in use by companies, including CompuScan, in the late 1960s and 1970s.<ref name=Scantz82/><ref>{{cite journal |journal=Data Processing Magazine |title=The History of OCR |volume=12 |year=1970 |page=46}}</ref>) Kurzweil used the technology to create a reading machine for blind people to have a computer read text to them out loud. The device included a [[Charge-coupled device|CCD]]-type [[Image scanner|flatbed scanner]] and a text-to-speech synthesizer. On January 13, 1976, the finished product was unveiled during a widely reported news conference headed by Kurzweil and the leaders of the [[National Federation of the Blind]].{{Citation needed|date=October 2011}} In 1978, Kurzweil Computer Products began selling a commercial version of the optical character recognition computer program. [[LexisNexis]] was one of the first customers, and bought the program to upload legal paper and news documents onto its nascent online databases. Two years later, Kurzweil sold his company to [[Xerox]], which eventually spun it off as [[Scansoft]], which merged with [[Nuance Communications]].
+
+In the 2000s, OCR was made available online as a service (WebOCR), in a [[cloud computing]] environment, and in mobile applications like real-time translation of foreign-language signs on a [[smartphone]]. With the advent of smartphones and [[smartglasses]], OCR can be used in internet connected mobile device applications that extract text captured using the device's camera. These devices that do not have built-in OCR functionality will typically use an OCR [[API]] to extract the text from the image file captured by the device.<ref>{{cite web|date=27 June 2015|title=Extracting text from images using OCR on Android|url=https://community.havenondemand.com/t5/Blog/Extracting-text-from-images-using-OCR-on-Android/ba-p/1883|url-status=dead|archive-url=https://web.archive.org/web/20160315001012/https://community.havenondemand.com/t5/Blog/Extracting-text-from-images-using-OCR-on-Android/ba-p/1883|archive-date=March 15, 2016}}</ref><ref>{{cite web|date=23 October 2014|title=[Tutorial] OCR on Google Glass|url=https://community.havenondemand.com/t5/Blog/Tutorial-OCR-on-Google-Glass/ba-p/1164|url-status=dead|archive-url=https://web.archive.org/web/20160305231423/https://community.havenondemand.com/t5/Blog/Tutorial-OCR-on-Google-Glass/ba-p/1164|archive-date=March 5, 2016}}</ref> The OCR API returns the extracted text, along with information about the location of the detected text in the original image back to the device app for further processing (such as text-to-speech) or display.
+
+[[Comparison of optical character recognition software|Various commercial and open source OCR systems]] are available for most common [[writing system]]s, including Latin, Cyrillic, Arabic, Hebrew, Indic, Bengali (Bangla), Devanagari, Tamil, Chinese, Japanese, and Korean characters.
+
+==Applications==
+OCR engines have been developed into software applications specializing in various subjects such as receipts, invoices, checks, and legal billing documents.
+
+The software can be used for:
+* [[Data entry|Entering data]] for business documents, e.g. [[Cheque clearing|checks]], passports, invoices, bank statements and receipts
+* [[Automatic number-plate recognition]]
+* Passport recognition and [[information extraction]] in airports
+* Automatically extracting key information from insurance documents{{citation needed|date=February 2020}}
+* [[Traffic-sign recognition]]<ref name="Zeng2015">{{cite book|author=Zeng, Qing-An |title=Wireless Communications, Networking and Applications: Proceedings of WCNA 2014|url=https://books.google.com/books?id=vCnUCgAAQBAJ|date= 2015|publisher=Springer|isbn=978-81-322-2580-5}}</ref>
+* Extracting business card information into a contact list<ref>{{cite web|date=22 July 2014|title=[javascript] Using OCR and Entity Extraction for LinkedIn Company Lookup|url=https://community.havenondemand.com/t5/Blog/javascript-Using-OCR-and-Entity-Extraction-for-LinkedIn-Company/ba-p/460|url-status=dead|archive-url=https://web.archive.org/web/20160417145657/https://community.havenondemand.com/t5/Blog/javascript-Using-OCR-and-Entity-Extraction-for-LinkedIn-Company/ba-p/460|archive-date=April 17, 2016}}</ref>
+* Creating textual versions of printed documents, e.g. [[book scanning]] for [[Project Gutenberg]]
+* Making electronic images of printed documents searchable, e.g. [[Google Books]]
+* Converting handwriting in real-time to control a computer ([[pen computing]])
+* Defeating or testing the robustness of [[CAPTCHA]] anti-bot systems, though these are specifically designed to prevent OCR.<ref>{{cite web|url=http://www.andrewt.net/blog/how-to-crack-captchas/ |title=How To Crack Captchas |publisher=andrewt.net |date=2006-06-28 |access-date=2013-06-16}}</ref><ref>{{cite web|url=http://www.cs.sfu.ca/~mori/research/gimpy/ |title=Breaking a Visual CAPTCHA |publisher=Cs.sfu.ca |date=2002-12-10 |access-date=2013-06-16}}</ref><ref>{{cite web|author=Resig, John |url=http://ejohn.org/blog/ocr-and-neural-nets-in-javascript/ |title=John Resig – OCR and Neural Nets in JavaScript |publisher=Ejohn.org |date=2009-01-23 |access-date=2013-06-16}}</ref>
+* Assistive technology for blind and visually impaired users
+* Writing instructions for vehicles by identifying CAD images in a database that are appropriate to the vehicle design as it changes in real time
+* Making scanned documents searchable by converting them to PDFs
+
+==Types==
+* Optical character recognition (OCR){{spaced ndash}}targets typewritten text, one [[glyph]] or [[character (symbol)|character]] at a time.
+* Optical word recognition{{spaced ndash}}targets typewritten text, one word at a time (for languages that use a [[Space (punctuation)|space]] as a [[word divider]]). Usually just called "OCR".
+* [[Intelligent character recognition]] (ICR){{spaced ndash}}also targets handwritten [[printscript]] or [[cursive]] text one glyph or character at a time, usually involving [[machine learning]].
+* [[Intelligent word recognition]] (IWR){{spaced ndash}}also targets handwritten [[printscript]] or [[cursive]] text, one word at a time. This is especially useful for languages where glyphs are not separated in cursive script.
+
+OCR is generally an offline process, which analyses a static document. There are cloud based services which provide an online OCR API service. [[Handwriting movement analysis]] can be used as input to [[handwriting recognition]].<ref>{{Cite journal | last1 = Tappert | first1 = C. C. | last2 = Suen | first2 = C. Y. | last3 = Wakahara | first3 = T. | doi = 10.1109/34.57669 | title = The state of the art in online handwriting recognition | journal = IEEE Transactions on Pattern Analysis and Machine Intelligence | volume = 12 | issue = 8 | pages = 787 | year = 1990 | s2cid = 42920826 | url = https://semanticscholar.org/paper/a5b3ce16666f0d9a7ac1636370a58838a7843b0f }}</ref> Instead of merely using the shapes of glyphs and words, this technique is able to capture motion, such as the order in which [[Segment (handwriting)|segments]] are drawn, the direction, and the pattern of putting the pen down and lifting it. This additional information can make the process more accurate. This technology is also known as "online character recognition", "dynamic character recognition", "real-time character recognition", and "intelligent character recognition".
+
+==Techniques==
+
+===Pre-processing===
+OCR software often pre-processes images to improve the chances of successful recognition. Techniques include:<ref name="nicomsoft">{{cite web|url=https://www.nicomsoft.com/optical-character-recognition-ocr-how-it-works/ |title=Optical Character Recognition (OCR) – How it works |publisher=Nicomsoft.com |access-date=2013-06-16}}</ref>
+* De-[[Skew (fax)|skewing]]{{spaced ndash}}if the document was not aligned properly when scanned, it may need to be tilted a few degrees clockwise or counterclockwise in order to make lines of text perfectly horizontal or vertical.
+* [[Despeckle|Despeckling]]{{spaced ndash}}removal of positive and negative spots, smoothing edges
+* Binarization{{spaced ndash}}conversion of an image from color or [[greyscale]] to black-and-white (called a [[binary image]] because there are two colors). The task is performed as a simple way of separating the text (or any other desired image component) from the background.<ref name="Sezgin2004">{{cite journal|last1=Sezgin|first1=Mehmet|last2=Sankur|first2=Bulent|date=2004|title=Survey over image thresholding techniques and quantitative performance evaluation|url=http://webdocs.cs.ualberta.ca/~nray1/CMPUT605/track3_papers/Threshold_survey.pdf|journal=Journal of Electronic Imaging|volume=13|issue=1|page=146|bibcode=2004JEI....13..146S|doi=10.1117/1.1631315|archive-url=https://web.archive.org/web/20151016080410/http://webdocs.cs.ualberta.ca/~nray1/CMPUT605/track3_papers/Threshold_survey.pdf|archive-date=October 16, 2015|access-date=2 May 2015}}</ref> The task of binarization is necessary since most commercial recognition algorithms work only on binary images, as it is simpler to do so.<ref name="Gupta2007">{{cite journal|last1=Gupta|first1=Maya R.|last2=Jacobson|first2=Nathaniel P.|last3=Garcia|first3=Eric K.|date=2007|title=OCR binarisation and image pre-processing for searching historical documents.|url=http://www.rfai.li.univ-tours.fr/fr/ressources/_dh/DOC/DocOCR/OCRbinarisation.pdf|journal=Pattern Recognition|volume=40|issue=2|page=389|doi=10.1016/j.patcog.2006.04.043|bibcode=2007PatRe..40..389G|archive-url=https://web.archive.org/web/20151016080410/http://www.rfai.li.univ-tours.fr/fr/ressources/_dh/DOC/DocOCR/OCRbinarisation.pdf|archive-date=October 16, 2015|access-date=2 May 2015}}</ref> In addition, the effectiveness of binarization influences to a significant extent the quality of character recognition, and careful decisions are made in the choice of the binarization employed for a given input image type; since the quality of the method used to obtain the binary result depends on the type of image (scanned document, [[scene text]] image, degraded historical document, etc.).<ref name=Trier1995>{{cite journal|last1=Trier|first1=Oeivind Due|last2=Jain|first2=Anil K.|title=Goal-directed evaluation of binarisation methods.|journal=IEEE Transactions on Pattern Analysis and Machine Intelligence|date=1995|volume=17|issue=12|pages=1191–1201|url=http://heim.ifi.uio.no/inf386/trier2.pdf |archive-url=https://web.archive.org/web/20151016080411/http://heim.ifi.uio.no/inf386/trier2.pdf |archive-date=2015-10-16 |url-status=live|access-date=2 May 2015|doi=10.1109/34.476511}}</ref><ref name="Milyaev2013">{{cite book|last1=Milyaev|first1=Sergey|last2=Barinova|first2=Olga|last3=Novikova|first3=Tatiana|last4=Kohli|first4=Pushmeet|last5=Lempitsky|first5=Victor|title=2013 12th International Conference on Document Analysis and Recognition |chapter=Image Binarization for End-to-End Text Understanding in Natural Images |date=2013|url=https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/mbnlk_icdar2013.pdf |archive-url=https://web.archive.org/web/20171113184347/https://www.microsoft.com/en-us/research/wp-content/uploads/2016/11/mbnlk_icdar2013.pdf |archive-date=2017-11-13 |url-status=live|journal=Document Analysis and Recognition (ICDAR) 2013|volume=12th International Conference on|pages=128–132|doi=10.1109/ICDAR.2013.33|isbn=978-0-7695-4999-6|s2cid=8947361|access-date=2 May 2015}}</ref>
+* Line removal{{spaced ndash}}Cleaning up non-glyph boxes and lines
+* [[Document Layout Analysis|Layout analysis]] or zoning{{spaced ndash}}Identification of columns, paragraphs, captions, etc. as distinct blocks. Especially important in [[Column (typography)|multi-column layouts]] and [[Table (information)|tables]].
+* Line and word detection{{spaced ndash}}Establishment of a baseline for word and character shapes, separating words as necessary.
+* Script recognition{{spaced ndash}}In multilingual documents, the script may change at the level of the words and hence, identification of the script is necessary, before the right OCR can be invoked to handle the specific script.<ref>{{Cite journal |last1=Pati |first1=P.B. |last2= Ramakrishnan |first2=A.G. |title=Word Level Multi-script Identification |date=1987-05-29 |journal=Pattern Recognition Letters |volume=29 |issue=9 |pages=1218–1229  |doi=10.1016/j.patrec.2008.01.027|bibcode=2008PaReL..29.1218P }}</ref>
+* Character isolation or segmentation{{spaced ndash}}For per-character OCR, multiple characters that are connected due to image artifacts must be separated; single characters that are broken into multiple pieces due to artifacts must be connected.
+* Normalization of [[aspect ratio]] and [[Scale (ratio)|scale]]<ref>{{cite web|url=http://blog.damiles.com/2008/11/20/basic-ocr-in-opencv.html |title=Basic OCR in OpenCV &#124; Damiles |publisher=Blog.damiles.com |access-date=2013-06-16|date=2008-11-20 }}</ref>
+
+Segmentation of [[fixed-pitch font]]s is accomplished relatively simply by aligning the image to a uniform grid based on where vertical grid lines will least often intersect black areas. For [[proportional font]]s, more sophisticated techniques are needed because whitespace between letters can sometimes be greater than that between words, and vertical lines can intersect more than one character.<ref name="Tesseract overview" />
+
+===Text recognition===
+There are two basic types of core OCR algorithm, which may produce a ranked list of candidate characters.<ref>{{cite web|url=http://www.dataid.com/aboutocr.htm |title=OCR Introduction |publisher=Dataid.com |access-date=2013-06-16}}</ref>
+
+* ''Matrix matching'' involves comparing an image to a stored glyph on a pixel-by-pixel basis; it is also known as ''pattern matching'', ''[[pattern recognition]]'', or ''[[digital image correlation|image correlation]]''. This relies on the input glyph being correctly isolated from the rest of the image, and the stored glyph being in a similar font and at the same scale. This technique works best with typewritten text and does not work well when new fonts are encountered. This is the technique early physical photocell-based OCR implemented, rather directly.
+* ''Feature extraction'' decomposes glyphs into "features" like lines, closed loops, line direction, and line intersections. The extraction features reduces the dimensionality of the representation and makes the recognition process computationally efficient. These features are compared with an abstract vector-like representation of a character, which might reduce to one or more glyph prototypes. General techniques of [[Feature detection (computer vision)|feature detection in computer vision]] are applicable to this type of OCR, which is commonly seen in "intelligent" [[handwriting recognition]] and most modern OCR software.<ref name="ocrwizard">{{cite web|title=How OCR Software Works|url=http://ocrwizard.com/ocr-software/how-ocr-software-works.html|url-status=dead|archive-url=https://web.archive.org/web/20090816210246/http://ocrwizard.com/ocr-software/how-ocr-software-works.html|archive-date=August 16, 2009|access-date=2013-06-16|publisher=OCRWizard}}</ref> [[Nearest neighbour classifiers]] such as the [[k-nearest neighbors algorithm]] are used to compare image features with stored glyph features and choose the nearest match.<ref>{{cite web|url=http://blog.damiles.com/2008/11/14/the-basic-patter-recognition-and-classification-with-opencv.html |title=The basic pattern recognition and classification with openCV &#124; Damiles |publisher=Blog.damiles.com |access-date=2013-06-16|date=2008-11-14 }}</ref>
+
+Software such as [[CuneiForm (software)|Cuneiform]] and [[Tesseract (software)|Tesseract]] use a two-pass approach to character recognition. The second pass is known as adaptive recognition and uses the letter shapes recognized with high confidence on the first pass to better recognize the remaining letters on the second pass. This is advantageous for unusual fonts or low-quality scans where the font is distorted (e.g. blurred or faded).<ref name="Tesseract overview">{{cite web|author=Smith, Ray |year=2007|title=An Overview of the Tesseract OCR Engine|url=http://tesseract-ocr.googlecode.com/svn/trunk/doc/tesseracticdar2007.pdf|url-status=dead|archive-url=https://web.archive.org/web/20100928052954/http://tesseract-ocr.googlecode.com/svn/trunk/doc/tesseracticdar2007.pdf|archive-date=September 28, 2010|access-date=2013-05-23}}</ref>
+
+{{As of|2016|12}}, modern OCR software includes [[Google Docs]] OCR, [[ABBYY FineReader]], and Transym.<ref>{{Cite journal|last=Assefi|first=Mehdi|date=December 2016|title=OCR as a Service: An Experimental Evaluation of Google Docs OCR, Tesseract, ABBYY FineReader, and Transym|url=https://www.researchgate.net/publication/310645810|journal=ResearchGate}}</ref>{{needs update|date=June 2023}} Others like [[OCRopus]] and Tesseract use [[neural network]]s which are trained to recognize whole lines of text instead of focusing on single characters.
+
+A technique known as iterative OCR automatically crops a document into sections based on page layout. OCR is performed on the sections individually using variable character confidence level thresholds to maximize page-level OCR accuracy. A patent from the United States Patent Office has been issued for this method.<ref>{{Cite web|title=How the Best OCR Technology Captures 99.91% of Data|url=https://www.bisok.com/grooper-data-capture-method-features/multi-pass-ocr/|access-date=2021-05-27|website=www.bisok.com}}</ref>
+
+The OCR result can be stored in the standardized [[ALTO (XML)|ALTO]] format, a dedicated [[XML schema]] maintained by the United States [[Library of Congress]]. Other common formats include [[hOCR]] and PAGE XML.
+
+For a list of optical character recognition software, see [[Comparison of optical character recognition software]].
+
+===Post-processing===
+OCR accuracy can be increased if the output is constrained by a [[lexicon]]{{spaced ndash}}a list of words that are allowed to occur in a document.<ref name="nicomsoft" /> This might be, for example, all the words in the English language, or a more technical lexicon for a specific field. This technique can be problematic if the document contains words not in the lexicon, like [[proper noun]]s. Tesseract uses its dictionary to influence the character segmentation step, for improved accuracy.<ref name="Tesseract overview" />
+
+The output stream may be a [[plain text]] stream or file of characters, but more sophisticated OCR systems can preserve the original layout of the page and produce, for example, an annotated [[PDF]] that includes both the original image of the page and a searchable textual representation.
+
+''Near-neighbor analysis'' can make use of [[co-occurrence]] frequencies to correct errors, by noting that certain words are often seen together.<ref name="explain">{{cite web|author-first=Chris|author-last=Woodford|author-link=Chris Woodford (author)|url=http://www.explainthatstuff.com/how-ocr-works.html |title=How does OCR document scanning work? |publisher=Explain that Stuff |date=2012-01-30 |access-date=2013-06-16}}</ref> For example, "Washington, D.C." is generally far more common in English than "Washington DOC".
+
+Knowledge of the grammar of the language being scanned can also help determine if a word is likely to be a verb or a noun, for example, allowing greater accuracy.
+
+The [[Levenshtein distance|Levenshtein Distance]] algorithm has also been used in OCR post-processing to further optimize results from an OCR API.<ref>{{cite web|title=How to optimize results from the OCR API when extracting text from an image? - Haven OnDemand Developer Community|url=https://community.havenondemand.com/t5/Wiki/How-to-optimize-results-from-the-OCR-API-when-extracting-text/ta-p/1656|url-status=dead|archive-url=https://web.archive.org/web/20160322103356/https://community.havenondemand.com/t5/Wiki/How-to-optimize-results-from-the-OCR-API-when-extracting-text/ta-p/1656|archive-date=March 22, 2016}}</ref>
+
+===Application-specific optimizations===
+In recent years,{{when|date=March 2013}} the major OCR technology providers began to tweak OCR systems to deal more efficiently with specific types of input. Beyond an application-specific lexicon, better performance may be had by taking into account business rules, standard expression,{{clarify|date=March 2013}} or rich information contained in color images. This strategy is called "Application-Oriented OCR" or "Customized OCR", and has been applied to OCR of [[license plate]]s, [[invoice]]s, [[screenshot]]s, [[ID card]]s, [[Driver's license|driver's licenses]], and [[automobile manufacturing]].
+
+''[[The New York Times]]'' has adapted the OCR technology into a proprietary tool they entitle ''Document Helper'', that enables their interactive news team to accelerate the processing of documents that need to be reviewed. They note that it enables them to process what amounts to as many as 5,400 pages per hour in preparation for reporters to review the contents.<ref>{{Cite news |last=Fehr |first=Tiff |date=2019-03-26 |title=How We Sped Through 900 Pages of Cohen Documents in Under 10 Minutes |language=en-US |work=The New York Times |url=https://www.nytimes.com/2019/03/26/reader-center/times-documents-reporters-cohen.html |access-date=2023-06-16 |issn=0362-4331}}</ref>
+
+==Workarounds==
+There are several techniques for solving the problem of character recognition by means other than improved OCR algorithms.
+
+===Forcing better input===
+Special fonts like [[OCR-A]], [[OCR-B]], or [[MICR]] fonts, with precisely specified sizing, spacing, and distinctive character shapes, allow a higher accuracy rate during transcription in bank check processing. Several prominent OCR engines were designed to capture text in popular fonts such as Arial or Times New Roman, and are incapable of capturing text in these fonts that are specialized and very different from popularly used fonts. As Google Tesseract can be trained to recognize new fonts, it can recognize OCR-A, OCR-B and MICR fonts.<ref>{{Cite web|url=http://trainyourtesseract.com/|title=Train Your Tesseract|date=September 20, 2018|website=Train Your Tesseract|access-date=September 20, 2018}}</ref>
+
+''Comb fields'' are pre-printed boxes that encourage humans to write more legibly{{spaced ndash}}one glyph per box.<ref name="explain" /> These are often printed in a [[Drop out ink|dropout color]] which can be easily removed by the OCR system.<ref name="explain" />
+
+[[Palm OS]] used a special set of glyphs, known as [[Graffiti (Palm OS)|Graffiti]], which are similar to printed English characters but simplified or modified for easier recognition on the platform's computationally limited hardware. Users would need to learn how to write these special glyphs.
+
+Zone-based OCR restricts the image to a specific part of a document. This is often referred to as ''Template OCR''.
+
+===Crowdsourcing===
+[[Crowdsourcing]] humans to perform the character recognition can quickly process images like computer-driven OCR, but with higher accuracy for recognizing images than that obtained via computers. Practical systems include the [[Amazon Mechanical Turk]] and [[reCAPTCHA]]. The [[National Library of Finland]] has developed an online interface for users to correct OCRed texts in the standardized ALTO format.<ref>{{cite web|url=http://blogs.helsinki.fi/fennougrica/2014/02/21/ocr-text-editor/|title=What is the point of an online interactive OCR text editor? - Fenno-Ugrica|date=2014-02-21}}</ref> Crowd sourcing has also been used not to perform character recognition directly but to invite software developers to develop image processing algorithms, for example, through the use of [[Tournament theory|rank-order tournaments]].<ref>{{cite journal |author=Riedl, C. |author2=Zanibbi, R. |author3=Hearst, M. A. |author4=Zhu, S. |author5=Menietti, M. |author6=Crusan, J. |author7=Metelsky, I. |author8=Lakhani, K. |title=Detecting Figures and Part Labels in Patents: Competition-Based Development of Image Processing Algorithms |journal=[[International Journal on Document Analysis and Recognition]] |volume=19 |issue=2 |pages=155 |date=20 February 2016 |doi=10.1007/s10032-016-0260-8|arxiv=1410.6751 |s2cid=11873638 }}</ref>
+
+==Accuracy==
+{{update|date=March 2013}}
+[[File:Google_Ngrams_(English_2009)_ocurrence_of_laft_and_last.png|thumb|Ocurrence of laft and last in Google's [[n-gram]]s database, in English documents from 1700-1900, based on OCR scans for the "English 2009" corpus.]]
+[[File:Google_Ngrams_(English_2012)_ocurrence_of_laft_and_last.png|thumb|Ocurrence of laft and last in Google's [[n-gram]]s database, based on OCR scans for the "English 2012" corpus.<ref name=":0">{{Cite web |title=Google Books Ngram Viewer |url=https://books.google.com/ngrams/info |access-date=2023-07-20 |website=books.google.com |language=en |quote=When we generated the original Ngram Viewer corpora in 2009, our OCR wasn't as good […]. This was especially obvious in pre-19th century English, where the [[long S|elongated medial-s]] (ſ) was often interpreted as an f, […]. Here's evidence of the improvements we've made since then, using the corpus operator to compare the 2009, 2012 and 2019 versions […]}}</ref>]]
+[[File:Google_Ngrams_(English_2019)_long_s_normalization.png|thumb|Searching for words with a [[Long s|long S]] in English 2012 or later are normalized to an S.]]
+Commissioned by the [[U.S. Department of Energy]] (DOE), the Information Science Research Institute (ISRI) had the mission to foster the improvement of automated technologies for understanding machine printed documents, and it conducted the most authoritative of the ''Annual Test of OCR Accuracy'' from 1992 to 1996.<ref>{{cite web|url=https://code.google.com/p/isri-ocr-evaluation-tools/|title= Code and Data to evaluate OCR accuracy, originally from UNLV/ISRI|publisher=Google Code Archive}}</ref>
+
+Recognition of typewritten, [[Latin script]] text is still not 100% accurate even where clear imaging is available. One study based on recognition of 19th- and early 20th-century newspaper pages concluded that character-by-character OCR accuracy for commercial OCR software varied from 81% to 99%;<ref>{{cite web
+  |url=http://www.dlib.org/dlib/march09/holley/03holley.html
+  |access-date=5 January 2014
+  |date=April 2009
+  |last=Holley
+  |first=Rose
+  |publisher=D-Lib Magazine
+  |title=How Good Can It Get? Analysing and Improving OCR Accuracy in Large Scale Historic Newspaper Digitisation Programs
+}}</ref> total accuracy can be achieved by human review or Data Dictionary Authentication. Other areas<nowiki>{{snd}}</nowiki>including recognition of hand printing, [[cursive]] handwriting, and printed text in other scripts (especially those East Asian language characters which have many strokes for a single character)<nowiki>{{snd}}</nowiki>are still the subject of active research. The [[MNIST database]] is commonly used for testing systems' ability to recognize handwritten digits.
+
+Accuracy rates can be measured in several ways, and how they are measured can greatly affect the reported accuracy rate. For example, if word context (a lexicon of words) is not used to correct software finding non-existent words, a character error rate of 1% (99% accuracy) may result in an error rate of 5% or worse if the measurement is based on whether each whole word was recognized with no incorrect letters.<ref>{{Cite conference  | last1=Suen  | first1=C.Y.  | last2= Plamondon    |  first2=R.  | last3= Tappert  | first3=A.  | last4=Thomassen  | first4=A.  | last5=Ward  | first5=J.R.  | last6=Yamamoto  | first6=K.  | title = Future Challenges in Handwriting and Computer Applications  | date =1987-05-29  | conference=3rd International Symposium on Handwriting and Computer Applications, Montreal, May 29, 1987  | url=http://users.erols.com/rwservices/pens/biblio88.html#Suen88  | access-date = 2008-10-03}}</ref> Using a large enough dataset is important in a neural-network-based handwriting recognition solutions. On the other hand, producing natural datasets is very complicated and time-consuming.<ref>{{cite book|title=Comparison of Synthesized and Natural Datasets in Neural Network Based Handwriting Solutions|author=Mohseni, Ayda; Azmi, Reza; Maleki, Arvin and Layeghi, Kamran  |date=2019|publisher=ITCT|url=https://civilica.com/doc/924198/certificate/pdf/}}</ref>
+
+An example of the difficulties inherent in digitizing old text is the inability of OCR to differentiate between the "[[long s]]" and "f" characters.<ref>{{cite book|title=Research and Advanced Technology for Digital Libraries|author=Kapidakis, Sarantos; Mazurek, Cezary and Werla, Marcin |date=2015|page=257|publisher=Springer|isbn=9783319245928|url=https://books.google.com/books?id=kEyGCgAAQBAJ&q=OCR+and+long+s}}</ref><ref name=":0" />
+
+Web-based OCR systems for recognizing hand-printed text on the fly have become well known as commercial products in recent years{{when|date=March 2013}} (see [[tablet computer|Tablet PC history]]). Accuracy rates of 80% to 90% on neat, clean hand-printed characters can be achieved by [[pen computing]] software, but that accuracy rate still translates to dozens of errors per page, making the technology useful only in very limited applications.{{citation needed|date=May 2009}}
+
+Recognition of [[cursive|cursive text]] is an active area of research, with recognition rates even lower than that of [[hand-printed text]]. Higher rates of recognition of general cursive script will likely not be possible without the use of contextual or grammatical information. For example, recognizing entire words from a dictionary is easier than trying to parse individual characters from script. Reading the ''Amount'' line of a [[cheque|check]] (which is always a written-out number) is an example where using a smaller dictionary can increase recognition rates greatly. The shapes of individual cursive characters themselves simply do not contain enough information to accurately (greater than 98%) recognize all handwritten cursive script.{{citation needed|date=May 2009}}
+
+Most programs allow users to set "confidence rates". This means that if the software does not achieve their desired level of accuracy, a user can be notified for manual review.
+
+An error introduced by OCR scanning is sometimes termed a ''scanno'' (by analogy with the term [[Typographical error|''typo'']]).<ref>{{Cite journal|doi = 10.4155/ppa.15.21|title = Reinventing nonpatent literature for pharmaceutical patenting|year = 2015|last1 = Atkinson|first1 = Kristine H.|journal = Pharmaceutical Patent Analyst|volume = 4|issue = 5|pages = 371–375|pmid = 26389649}}</ref><ref>http://www.hoopoes.com/jargon/entry/scanno.shtml Dead link</ref>
+
+
+==Unicode==
+{{Main|Optical Character Recognition (Unicode block)}}
+
+Characters to support OCR were added to the [[Unicode]] Standard in June 1993, with the release of version 1.1.
+
+Some of these characters are mapped from fonts specific to [[MICR]], [[OCR-A]] or [[OCR-B]].
+{{Unicode chart Optical Character Recognition}}
+
+==See also==
+{{columns-list|colwidth=22em|
+* [[AI effect]]
+* [[Applications of artificial intelligence]]
+* [[Comparison of optical character recognition software]]
+* [[Computational linguistics]]
+* [[Digital library]]
+* [[Digital mailroom]]
+* [[Digital pen]]
+* [[Institutional repository]]
+* [[Legibility]]
+* [[List of emerging technologies]]
+* [[Live ink character recognition solution]]
+* [[Magnetic ink character recognition]]
+* [[Music OCR]]
+* [[OCR in Indian Languages]]
+* [[Optical mark recognition]]
+* [[Outline of artificial intelligence]]
+* [[Sketch recognition]]
+* [[Speech recognition]]
+* [[Tesseract (software)|Tesseract OCR engine]]
+* [[Voice recording]]
+}}
+
+==References==
+{{Reflist|30em}}
+
+==External links==
+{{Commons category|Optical character recognition}}
+* [https://www.unicode.org/charts/PDF/U2440.pdf Unicode OCR{{spaced ndash}}Hex Range: 2440-245F] Optical Character Recognition in Unicode
+* [http://ruetersward.com/biblio.html Annotated bibliography of references to handwriting character recognition and pen computing]
+
+{{OCR}}
+{{Natural Language Processing}}
+{{Differentiable computing}}
+{{Authority control}}
+
+{{DEFAULTSORT:Optical Character Recognition}}
+[[Category:Optical character recognition| ]]
+[[Category:Applications of artificial intelligence]]
+[[Category:Applications of computer vision]]
+[[Category:Automatic identification and data capture]]
+[[Category:Computational linguistics]]
+[[Category:Unicode]]
+[[Category:Symbols]]
+[[Category:Machine learning task]]
