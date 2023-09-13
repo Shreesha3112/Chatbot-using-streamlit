@@ -2,20 +2,49 @@
 
 ## Setup
 
-1. Clone this repository.
-2. Navigate into the project directory:
-<$ cd openai-quickstart-python>
-3. Create a new virtual environment:
-<$ python -m venv venv
-$ . venv/bin/activate>
-4. Install the requirements:
-$ pip install -r requirements.txt
-5.Make a copy of the example environment variables file:
-$ cp .env.example .env
-6. Add your API key to the newly created .env file.
-7. Run the app:
-$ streamlit run chatbot.py
 
+This is an Open AI based chatbot made with Streamlit. Follow the instructions below to get set up.
+
+## Setup
+
+1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/).
+
+2. Clone this repository.
+
+3. Navigate into the project directory:
+
+   ```bash
+   $ cd Sagility-Generative-AI-assessment
+   ```
+
+4. Create a new virtual environment:
+
+   ```bash
+   $ python -m venv venv
+   $ . venv/bin/activate
+   ```
+
+5. Install the requirements:
+
+   ```bash
+   $ pip install -r requirements.txt
+   ```
+
+6. Make a copy of the example environment variables file:
+
+   ```bash
+   $ cp .env.example .env
+   ```
+
+7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+
+8. Run the app:
+
+   ```bash
+   $ streamlit run chatbot.py
+   ```
+
+You should now be able to access the app at [http://localhost:8501](http://localhost:8501)!
 
 ## Wikipedia topics selected
 
