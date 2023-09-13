@@ -1,4 +1,21 @@
-# Sagility-Generative-AI-assessment
+# Sagility-Generative-AI-assessment - Wikipedia Chatbot
+
+## Setup
+
+1. Clone this repository.
+2. Navigate into the project directory:
+<$ cd openai-quickstart-python>
+3. Create a new virtual environment:
+<$ python -m venv venv
+$ . venv/bin/activate>
+4. Install the requirements:
+$ pip install -r requirements.txt
+5.Make a copy of the example environment variables file:
+$ cp .env.example .env
+6. Add your API key to the newly created .env file.
+7. Run the app:
+$ streamlit run chatbot.py
+
 
 ## Wikipedia topics selected
 
@@ -16,4 +33,4 @@
 5. Build a simple web interface for this Q&A bot.
 
 ### 2. Q&A Bot should accurately respond to queries related to the contents of these files
-Solution: Use fine tuning / 
+Solution: Use fine tuning /
