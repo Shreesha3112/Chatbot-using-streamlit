@@ -69,5 +69,40 @@ You should now be able to access the app at [http://localhost:8501](http://local
 4. Q&A bot should only respond to queries which are within the scope of your source documents
 5. Build a simple web interface for this Q&A bot.
 
-### 2. Q&A Bot should accurately respond to queries related to the contents of these files
-Solution: Use fine tuning /
+## Chatbot uses Search-Ask approach using embedding search 
+
+#### Why search is better than fine-tuning
+
+GPT can learn knowledge in two ways:
+
+- Via model weights (i.e., fine-tune the model on a training set)
+- Via model inputs (i.e., insert the knowledge into an input message)
+
+Although fine-tuning can feel like the more natural option—training on data is how GPT learned all of its other knowledge, after all—we generally do not recommend it as a way to teach the model knowledge. Fine-tuning is better suited to teaching specialized tasks or styles, and is less reliable for factual recall.
+
+As an analogy, model weights are like long-term memory. When you fine-tune a model, it's like studying for an exam a week away. When the exam arrives, the model may forget details, or misremember facts it never read.
+
+In contrast, message inputs are like short-term memory. When you insert knowledge into a message, it's like taking an exam with open notes. With notes in hand, the model is more likely to arrive at correct answers.
+
+## Scope for Improvements
+
+Q&A retrieval performance may also be improved with techniques like [HyDE](https://arxiv.org/abs/2212.10496), in which questions are first transformed into hypothetical answers before being embedded. Similarly, GPT can also potentially improve search results by automatically transforming questions into sets of keywords or search terms.
+
+## Test cases
+
+1. Counting question 
+   
+3. Comparision quetion - 
+
+4. Subjective quetion
+
+5. False assumption quetion
+
+6. 'instruction injection' question
+
+7. Misspelled question
+
+8. Out of scope quetion
+
+9. open-ended question
+
