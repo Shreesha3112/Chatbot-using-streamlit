@@ -1,5 +1,3 @@
 EMBEDDINGS_MODEL = "text-embedding-ada-002"
 GPT_MODEL = 'gpt-3.5-turbo'
-TEXT_EMBEDDING_CHUNK_SIZE=300
 WIKI_SITE = "en.wikipedia.org"
-OPENAI_API_KEY = "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"

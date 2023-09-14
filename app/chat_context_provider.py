@@ -1,10 +1,17 @@
 import pandas as pd
-import numpy as np
 import openai
 from scipy import spatial
 import tiktoken
+import ast  # for converting embeddings saved as strings back to arrays
 from typing import List, Tuple
 from config import GPT_MODEL, EMBEDDINGS_MODEL
+
+def fetch_topic_embedding():
+    topic_embeddings_df = pd.read_csv('data/embedding/topic_embedding.csv')
+    # convert embeddings from CSV str type back to list type
+    topic_embeddings_df['embedding'] = topic_embeddings_df['embedding'].apply(ast.literal_eval)
+
+    return topic_embeddings_df
 
 # search function
 def strings_ranked_by_relatedness(
@@ -41,7 +48,9 @@ def query_message(
 ) -> str:
     """Return a message for GPT, with relevant source texts pulled from a dataframe."""
     strings, relatednesses = strings_ranked_by_relatedness(query, df)
-    introduction = 'Use the below articles on business process management, large_language_models, Natural Language Processing,  Optical Character Recognition, Speech Recognition to answer the subsequent question. If the answer cannot be found in the articles, write "I could not find an answer."'
+    introduction = '''Use the below articles on business process management, large_language_models, Natural Language Processing,
+    Optical Character Recognition, Speech Recognition to answer the subsequent question. If the answer cannot be found in the articles,
+    write "I could not find an answer." and write why you could't find an answer when possible'''
     question = f"\n\nQuestion: {query}"
     message = introduction
     for string in strings:

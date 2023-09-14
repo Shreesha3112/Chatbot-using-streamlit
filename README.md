@@ -1,8 +1,5 @@
 # Sagility-Generative-AI-assessment - Wikipedia Chatbot
 
-## Setup
-
-
 This is an Open AI based chatbot made with Streamlit. Follow the instructions below to get set up.
 
 ## Setup
@@ -21,7 +18,18 @@ This is an Open AI based chatbot made with Streamlit. Follow the instructions be
 
    ```bash
    $ python -m venv venv
+   ```
+   Activate virtual environment
+   
+   For linux/ Mac users
+
+   ```bash
    $ . venv/bin/activate
+   ```
+   For windows users
+
+   ```bash
+   $ . venv\Scripts\Activate
    ```
 
 5. Install the requirements:
@@ -30,18 +38,18 @@ This is an Open AI based chatbot made with Streamlit. Follow the instructions be
    $ pip install -r requirements.txt
    ```
 
-6. Make a copy of the example environment variables file:
+6. Make a copy of the example secrets variables file:
 
    ```bash
-   $ cp .env.example .env
+   $ cp .streamlit/secrets.example.toml .streamlit/secrets.toml
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file.
+7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `secrets.toml` file.
 
 8. Run the app:
 
    ```bash
-   $ streamlit run chatbot.py
+   $ streamlit run app/chatbot.py
    ```
 
 You should now be able to access the app at [http://localhost:8501](http://localhost:8501)!
