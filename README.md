@@ -11,7 +11,7 @@ This is an Open AI based chatbot made with Streamlit. Follow the instructions be
 3. Navigate into the project directory:
 
    ```bash
-   $ cd Chatbot-using-streamlit
+   $ cd Wikipedia-Chatbot
    ```
 
 4. Create a new virtual environment:
