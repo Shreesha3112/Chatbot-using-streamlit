@@ -1,4 +1,4 @@
-# Sagility-Generative-AI-assessment - Wikipedia Chatbot
+# Wikipedia Chatbot
 
 This is an Open AI based chatbot made with Streamlit. Follow the instructions below to get set up.
 
@@ -11,7 +11,7 @@ This is an Open AI based chatbot made with Streamlit. Follow the instructions be
 3. Navigate into the project directory:
 
    ```bash
-   $ cd Sagility-Generative-AI-assessment
+   $ cd Chatbot-using-streamlit
    ```
 
 4. Create a new virtual environment:
